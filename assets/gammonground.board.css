@@ -1,0 +1,42 @@
+/** backgammon board image */
+cg-board {
+  background-color: #f0d9b5;
+  background-image: url('./bgboard.svg');
+}
+
+/** Interactive board square colors */
+cg-board square.move-dest {
+  /*background: radial-gradient(rgba(20, 200, 30, 0.6) 20%, #208530 0, rgba(0, 0, 0, 0.3) 0, rgba(0, 0, 0, 0) 0);*/
+  /*background:linear-gradient (rgba(20, 200, 30, 0.6);*/
+  /*background: linear-gradient(to right, rgba(255,0,0,0),rgba(20, 200, 30, 0.6), rgba(255,0,0,0) );*/
+
+
+  background: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,0) 35%,rgba(20, 200, 30, 0.6) 50%,  rgba(255,0,0,0) 65%, rgba(255,0,0,0));
+}
+cg-board square.premove-dest {
+  background: radial-gradient(rgba(20, 30, 85, 0.5) 22%, #203085 0, rgba(0, 0, 0, 0.3) 0, rgba(0, 0, 0, 0) 0);
+}
+cg-board square.oc.move-dest {
+  background: radial-gradient(transparent 0%, transparent 80%, rgba(20, 255, 0, 0.3) 80%);
+}
+cg-board square.oc.premove-dest {
+  background: radial-gradient(transparent 0%, transparent 80%, rgba(20, 30, 85, 0.2) 80%);
+}
+cg-board square.move-dest:hover {
+  background: radial-gradient(rgba(20, 200, 30, 0.6) 70%, #203085 0, rgba(0, 0, 0, 0.3) 0, rgba(0, 0, 0, 0) 0);
+}
+cg-board square.premove-dest:hover {
+  background: rgba(20, 30, 85, 0.2);
+}
+cg-board square.last-move {
+  /*background-color: rgba(155, 199, 0, 0.41);*/
+  background: radial-gradient(rgba(155, 199, 30, 0.41) 70%, #408520 0, rgba(0, 0, 0, 0.0) 0, rgba(0, 0, 0, 0) 0);
+}
+cg-board square.selected {
+    background: radial-gradient(rgba(20, 200, 30, 0.6) 70%, #408520 0, rgba(0, 0, 0, 0.0) 0, rgba(0, 0, 0, 0) 0);
+
+/*  background-color: rgba(20, 85, 30, 0.5);
+*/}
+cg-board square.current-premove {
+  background-color: rgba(20, 30, 85, 0.5);
+}

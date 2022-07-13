@@ -1,0 +1,68 @@
+/** SVGs for backgammon checkers */
+.cg-wrap piece.checker.white {
+  background-image: url('./checker_white.svg');
+}
+.cg-wrap piece.checker.black {
+ background-image: url('./checker_black.svg');
+
+}
+
+.cg-wrap piece.undo.black {
+ background-image: url('./undo.svg');
+
+}
+
+.cg-wrap piece.double.black {
+ background-image: url('./cube.svg');
+}
+
+.cg-wrap piece.resign1.black {
+ background-image: url('./resign1.svg');
+}
+
+.cg-wrap piece.resign2.black {
+ background-image: url('./resign2.svg');
+}
+.cg-wrap piece.resign3.black {
+ background-image: url('./resign3.svg');
+}
+
+
+/** SVGs for backgammon die faces */
+.cg-wrap piece.d1.black {
+ background-image: url('./d1_black.svg');
+}
+.cg-wrap piece.d2.black {
+ background-image: url('./d2_black.svg');
+}
+.cg-wrap piece.d3.black {
+ background-image: url('./d3_black.svg');
+}
+.cg-wrap piece.d4.black {
+ background-image: url('./d4_black.svg');
+}
+.cg-wrap piece.d5.black {
+ background-image: url('./d5_black.svg');
+}
+.cg-wrap piece.d6.black {
+ background-image: url('./d6_black.svg');
+}
+
+.cg-wrap piece.d1.white {
+ background-image: url('./d1_white.svg');
+}
+.cg-wrap piece.d2.white {
+ background-image: url('./d2_white.svg');
+}
+.cg-wrap piece.d3.white {
+ background-image: url('./d3_white.svg');
+}
+.cg-wrap piece.d4.white {
+ background-image: url('./d4_white.svg');
+}
+.cg-wrap piece.d5.white {
+ background-image: url('./d5_white.svg');
+}
+.cg-wrap piece.d6.white {
+ background-image: url('./d6_white.svg');
+}
